@@ -27,6 +27,21 @@ import RefsClass from './components/refs/refsclass';
 import FRInputParent from './components/refs/forwardparent';
 import PortalDemo from './portal/portal';
 import ComponentA from './components/context/componenta';
+import Usestate from './components/hooks/usestate';
+import Usestatec from './components/hooks/usestatec';
+import Prevstate from './components/hooks/prevstate';
+import Cred from './components/hooks/usestate2';
+import Array from './components/hooks/usestatearray';
+import CountOne from './components/hooks/useeffectclass';
+import UseEffectOne from './components/hooks/useeffect';
+import RunEffectOnlyOnce from './components/hooks/runonlyonce';
+import TimerCleanup from './components/hooks/cleanup';
+import Fetching from './components/hooks/fetchingone';
+import ReducerOne from './components/hooks/reducer';
+import ReducerTwoCounters from './components/hooks/reducer2';
+import Datafetch from './components/hooks/datafetch';
+import ParentCallback from './components/hooks/parentcallback';
+import Memo from './components/hooks/memo';
 class App extends Component {
   render() {
     return (
@@ -62,8 +77,23 @@ class App extends Component {
         <RefsDemo />
         <RefsClass />
         <FRInputParent />
-        <PortalDemo />*/}
+        <PortalDemo />
         <ComponentA />
+        <Usestate />
+        <Usestatec />
+        <Prevstate />
+        <Cred />
+        <Array />
+        <CountOne />
+        <UseEffectOne />
+        <RunEffectOnlyOnce />
+        <SubscriptionCleanup />
+        <Fetching />
+        <ReducerOne />
+        <ReducerTwoCounters />
+        <Datafetch />
+        <ParentCallback />*/}
+        <Memo />
       </div>
     );
   }
